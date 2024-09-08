@@ -1,0 +1,100 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/89/3a/d7/893ad7c8ffcd7859d4a72852a9d9c60d.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+hr{
+    height: 3px;
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.established{
+    font-style: italic;
+}
+
+.menu {
+    width: 80%;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+   padding: 20px;
+   max-width: 500px;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px
+}
+
+.classic, .gourmet, .unique{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+.input-field, .textarea-field, .select-field {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    background-color: palevioletred;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.submit-button:hover {
+    background-color: lightblue;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Hidden thank you message */
+.thank-you {
+    display: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Show the thank-you message when the form is valid */
+form:valid ~ .thank-you {
+    display: block;
+}
